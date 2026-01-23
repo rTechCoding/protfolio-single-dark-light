@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Sidebar Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div class="sidebar-layout">
+        
+        <aside class="sidebar">
+            <div class="logo">rTechCoding</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">← Back Home</a></li>
+                    <li><a href="#" class="active-link" style="color: var(--primary-color);">All Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+            
+            <div style="margin-top: auto;">
+                <button id="theme-toggle" class="theme-btn">
+                    <span>☀️</span>
+                </button>
+            </div>
+        </aside>
+
+        <main class="sidebar-main">
+            <div class="section-title" style="text-align: left; margin-bottom: 3rem;">
+                <h2>My <span>Expertise</span></h2>
+                <p style="color: var(--text-muted);">Comprehensive solutions for your digital needs.</p>
+            </div>
+
+            <div class="grid-layout" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                <div class="card">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Frontend Dev</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Pixel-perfect conversion of designs into HTML/CSS/JS code.</p>
+                    <ul style="font-size: 0.9rem; color: var(--text-muted);">
+                        <li>• React / Vue</li>
+                        <li>• Tailwind CSS</li>
+                        <li>• Accessibility</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Backend Dev</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Robust server-side logic and database management.</p>
+                    <ul style="font-size: 0.9rem; color: var(--text-muted);">
+                        <li>• Node.js</li>
+                        <li>• Python</li>
+                        <li>• SQL / NoSQL</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">UI Design</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Creating intuitive and beautiful user interfaces.</p>
+                    <ul style="font-size: 0.9rem; color: var(--text-muted);">
+                        <li>• Figma</li>
+                        <li>• Prototyping</li>
+                        <li>• User Research</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
