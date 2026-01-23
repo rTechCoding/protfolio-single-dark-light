@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | rTechCoding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">rTechCoding</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active-link">Home</a></li>
+            <li><a href="about.html">About</a></li> <li><a href="services.html">Services</a></li> <li><a href="portfolio.html">Work</a></li>
+            <li>
+                <button id="theme-toggle" class="theme-btn">
+                    <span>☀️</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <span style="color: var(--primary-color); font-weight: 600; letter-spacing: 1px;">CREATIVE DEVELOPER</span>
+            <h1>Turning Ideas Into <br> Real Products.</h1>
+            <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.1rem; max-width: 500px;">
+                I build accessible, pixel-perfect, and performance-optimized web applications for startups and established businesses.
+            </p>
+            <div style="display: flex; gap: 1rem;">
+                <a href="portfolio.html" class="btn-primary">View My Work</a>
+                <a href="about.html" style="padding: 0.8rem 1.5rem; border: 1px solid var(--border-color); border-radius: 50px;">More About Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div style="width: 350px; height: 350px; background: linear-gradient(45deg, var(--primary-color), var(--secondary-color)); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; animation: morph 8s ease-in-out infinite; opacity: 0.8;"></div>
+        </div>
+    </section>
+
+    <section style="padding: 2rem 10%; text-align: center;">
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.9rem;">TECHNOLOGIES I WORK WITH</p>
+        <div class="skills-wrapper">
+            <div class="skill-tag">JavaScript</div>
+            <div class="skill-tag">React.js</div>
+            <div class="skill-tag">Node.js</div>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Figma</div>
+            <div class="skill-tag">Tailwind CSS</div>
+            <div class="skill-tag">MongoDB</div>
+            <div class="skill-tag">Git</div>
+        </div>
+    </section>
+
+    <section class="page-container">
+        <div class="section-title">
+            <h2>Selected <span>Projects</span></h2>
+            <p style="color: var(--text-muted);">A glimpse of what I've been working on</p>
+        </div>
+        
+        <div class="featured-preview">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Work">
+                <h3>Finance Dashboard</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">A high-performance dashboard with real-time data visualization.</p>
+                <a href="portfolio.html" style="color: var(--primary-color); font-weight: 600;">View Case Study →</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&w=600&q=80" alt="Work">
+                <h3>E-Commerce App</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">Full-stack application with stripe payment integration.</p>
+                <a href="portfolio.html" style="color: var(--primary-color); font-weight: 600;">View Case Study →</a>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80" alt="Work">
+                <h3>AI SaaS Platform</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">Landing page and interface design for an AI startup.</p>
+                <a href="portfolio.html" style="color: var(--primary-color); font-weight: 600;">View Case Study →</a>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: var(--bg-card); padding: 5rem 10%;">
+        <div class="section-title">
+            <h2>Client <span>Stories</span></h2>
+        </div>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p style="color: var(--text-muted); font-style: italic;">"Alex transformed our outdated website into a modern, high-converting platform. The attention to detail was incredible."</p>
+                <div class="client-info">
+                    <div style="background: var(--secondary-color); width: 40px; height: 40px; border-radius: 50%;"></div>
+                    <div>
+                        <h5 style="margin: 0;">Sarah Jenkins</h5>
+                        <small style="color: var(--text-muted);">CEO, TechStart</small>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p style="color: var(--text-muted); font-style: italic;">"Fast, reliable, and excellent communication throughout the project. I would hire Alex again in a heartbeat."</p>
+                <div class="client-info">
+                    <div style="background: var(--primary-color); width: 40px; height: 40px; border-radius: 50%;"></div>
+                    <div>
+                        <h5 style="margin: 0;">David Lee</h5>
+                        <small style="color: var(--text-muted);">Founder, CreativeStudio</small>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p style="color: var(--text-muted); font-style: italic;">"The code quality is top-notch. Our engineering team was impressed by how clean and scalable the solution was."</p>
+                <div class="client-info">
+                    <div style="background: #fff; width: 40px; height: 40px; border-radius: 50%;"></div>
+                    <div>
+                        <h5 style="margin: 0;">Michael Brown</h5>
+                        <small style="color: var(--text-muted);">CTO, FinCorp</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cta-section">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Have a project in mind?</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem;">Let's build something amazing together.</p>
+        <a href="contact.html" class="btn-primary">Let's Talk</a>
+    </div>
+
+    <footer style="text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+        <p>&copy; 2025 rTechCoding. All rights reserved.</p>
+        <div style="margin-top: 1rem; font-size: 1.2rem;">
+            <span style="margin: 0 10px; cursor: pointer;">Github</span>
+            <span style="margin: 0 10px; cursor: pointer;">LinkedIn</span>
+            <span style="margin: 0 10px; cursor: pointer;">Twitter</span>
+        </div>
+    </footer>
+
+    <style>
+         @keyframes morph {
+            0% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; }
+            50% { border-radius: 30% 60% 70% 40%/50% 60% 30% 60%; }
+            100% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; }
+        }
+    </style>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
