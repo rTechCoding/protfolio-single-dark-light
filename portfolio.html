@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Alex.Dev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Alex.Dev</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" class="active-link">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <button id="theme-toggle" class="theme-btn">
+                    <span>☀️</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="page-container">
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <h2>Recent <span>Work</span></h2>
+            <p style="color: var(--text-muted);">A selection of my latest projects</p>
+        </div>
+
+        <div class="grid-layout">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Work">
+                <h3>E-Commerce Platform</h3>
+                <p style="color: var(--text-muted);">A full-stack shopping platform built with React and Node.js.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Work">
+                <h3>Analytics Dashboard</h3>
+                <p style="color: var(--text-muted);">Data visualization tool for social media metrics.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80" alt="Work">
+                <h3>Mobile UI Kit</h3>
+                <p style="color: var(--text-muted);">A comprehensive UI kit for finance applications.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
